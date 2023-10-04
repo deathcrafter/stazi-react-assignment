@@ -94,6 +94,9 @@ const HotelApp = () => {
   );
 };
 
-export default window.location.host.includes("car") ? CarApp : HotelApp;
+// uncomment only one of the following lines (and comment the other two) to see the different apps
+// top one is only for production
 
+export default window.location.host.includes("car") ? CarApp : HotelApp;
+// export default CarApp;
 // export default HotelApp;

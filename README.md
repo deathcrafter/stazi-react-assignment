@@ -1,27 +1,35 @@
-# React + TypeScript + Vite
+# Stazi React Assignments
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Assignment 1 (Cars list with pagination)
 
-Currently, two official plugins are available:
+> Problem statement: https://internshala.com/uploads/chat-uploads/2a4xv2c5le0-2526087.pdf
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Solution: https://stazi-react-car.vercel.app/
 
-## Expanding the ESLint configuration
+## Assignment 2 (Hotel list with tabination)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+> Problem statement: https://internshala.com/uploads/chat-uploads/c407ugfvvnw-2014100.pdf
 
-- Configure the top-level `parserOptions` property like this:
+> Solution: https://stazi-react-hotel.vercel.app/
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Description
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This project includes both the assignments mentioned above. The project is built using ReactJS and TailwindCSS. The project is deployed on Vercel.
+
+The project renders the view depending on the hostname. For example, if the hostname contains `car`, then the car assignment will be rendered. Similarly, if the hostname contains `hotel`, then the hotel assignment will be rendered.
+
+The api is faked using static JSON files. The JSON files are stored in the `src/api` folder. The JSON files are named as `car.json` and `hotel.json` for the car and hotel assignment respectively.
+
+The project is built using the following technologies:
+- ReactJS
+- TailwindCSS
+- Vercel
+- TypeScript
+
+## Running the project
+
+To run the project, follow the steps below:
+- Clone the repository
+- Run `npm install` to install the dependencies
+- change the default export of `src/App.ts` to the required assignment (`CarApp` or `HotelApp`)
+- Run `npm run dev` to start the development server
