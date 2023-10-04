@@ -1,0 +1,130 @@
+{
+  "New York": [
+    {
+      "name": "Luxury Heights Hotel",
+      "image": "luxury_heights_image.jpg",
+      "price": "$350"
+    },
+    {
+      "name": "Central Park Plaza",
+      "image": "central_park_plaza_image.jpg",
+      "price": "$450"
+    },
+    {
+      "name": "Times Square Tower",
+      "image": "times_square_tower_image.jpg",
+      "price": "$400"
+    },
+    {
+      "name": "Broadway View Inn",
+      "image": "broadway_view_inn_image.jpg",
+      "price": "$300"
+    },
+    {
+      "name": "Metropolitan Suites",
+      "image": "metropolitan_suites_image.jpg",
+      "price": "$375"
+    },
+    {
+      "name": "Riverside Retreat",
+      "image": "riverside_retreat_image.jpg",
+      "price": "$425"
+    }
+  ],
+  "Mumbai": [
+    {
+      "name": "Taj Mahal Palace",
+      "image": "taj_mahal_palace_image.jpg",
+      "price": "₹12,000"
+    },
+    {
+      "name": "Oberoi Mumbai",
+      "image": "oberoi_mumbai_image.jpg",
+      "price": "₹10,500"
+    },
+    {
+      "name": "Marine Drive View Hotel",
+      "image": "marine_drive_view_hotel_image.jpg",
+      "price": "₹9,800"
+    },
+    {
+      "name": "Gateway Grand Hotel",
+      "image": "gateway_grand_hotel_image.jpg",
+      "price": "₹11,200"
+    },
+    {
+      "name": "Bandra Beach Resort",
+      "image": "bandra_beach_resort_image.jpg",
+      "price": "₹9,200"
+    },
+    {
+      "name": "Colaba Cove Retreat",
+      "image": "colaba_cove_retreat_image.jpg",
+      "price": "₹10,300"
+    }
+  ],
+  "Paris": [
+    {
+      "name": "Eiffel Tower Suites",
+      "image": "eiffel_tower_suites_image.jpg",
+      "price": "€300"
+    },
+    {
+      "name": "Louvre Palace Hotel",
+      "image": "louvre_palace_hotel_image.jpg",
+      "price": "€250"
+    },
+    {
+      "name": "Montmartre View Inn",
+      "image": "montmartre_view_inn_image.jpg",
+      "price": "€280"
+    },
+    {
+      "name": "Champs-Élysées Elegance",
+      "image": "champs_elysees_elegance_image.jpg",
+      "price": "€320"
+    },
+    {
+      "name": "Seine River Retreat",
+      "image": "seine_river_retreat_image.jpg",
+      "price": "€270"
+    },
+    {
+      "name": "Marais Hideaway Hotel",
+      "image": "marais_hideaway_hotel_image.jpg",
+      "price": "€290"
+    }
+  ],
+  "London": [
+    {
+      "name": "Westminster Grand Hotel",
+      "image": "westminster_grand_hotel_image.jpg",
+      "price": "£250"
+    },
+    {
+      "name": "Buckingham Palace Suites",
+      "image": "buckingham_palace_suites_image.jpg",
+      "price": "£280"
+    },
+    {
+      "name": "Covent Garden Charm",
+      "image": "covent_garden_charm_image.jpg",
+      "price": "£230"
+    },
+    {
+      "name": "Tower Bridge View Inn",
+      "image": "tower_bridge_view_inn_image.jpg",
+      "price": "£270"
+    },
+    {
+      "name": "Regent's Park Retreat",
+      "image": "regents_park_retreat_image.jpg",
+      "price": "£260"
+    },
+    {
+      "name": "Kensington Luxury Suites",
+      "image": "kensington_luxury_suites_image.jpg",
+      "price": "£300"
+    }
+  ]
+}
