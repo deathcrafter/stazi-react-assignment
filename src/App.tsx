@@ -94,6 +94,6 @@ const HotelApp = () => {
   );
 };
 
-// export default window.location.host.includes("car") ? CarApp : HotelApp;
+export default window.location.host.includes("car") ? CarApp : HotelApp;
 
-export default HotelApp;
+// export default HotelApp;
